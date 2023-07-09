@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
 /* nav bar style  */
-.nav-bar{
+.nav-bar {
     display: flex;
     align-items: center;
     background-color: darkgray;
@@ -12,11 +12,11 @@
     padding: 10px 30px 10px 30px;
 }
 
-.menus{
+.menus {
     font-size: 22px;
 }
 
-  ul{
+ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -24,9 +24,9 @@
 }
 
 /* banner area style  */
-.banner-container{
+.banner-container {
     height: 100vh;
-    background-image: url('/asset/image/background.jpg'), linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5));
+    background-image: url('/asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,16 +37,18 @@
     justify-content: center;
 }
 
-.primary{
+.primary {
     color: red;
 }
-.title{
+
+.title {
     font-size: 48px;
     font-weight: bold;
     color: white;
     padding: 10px;
 }
-.description{
+
+.description {
     font-size: 26px;
     font-weight: 400;
     color: white;
@@ -54,18 +56,20 @@
     width: 50%;
     margin: auto;
 }
-.btn{
+
+.btn {
     padding: 15px;
     font-size: 18px;
     border: none;
 }
-.bg-primary{
+
+.bg-primary {
     background-color: red;
     color: white;
 }
 
 /* service style  */
-.service-container{
+.service-container {
     height: 100vh;
     background-image: url('/asset/image/footer-bg.png'), linear-gradient(rgb(39, 38, 38), rgb(34, 34, 36));
     background-blend-mode: overlay;
@@ -74,13 +78,58 @@
     background-size: cover;
     color: white;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
 }
-.icon{
+
+.icon {
     width: 100px;
+    margin-bottom: 10px;
 }
-.one-box{
-    width: 150px;
-    height: 150px;
+
+.one-box {
+    text-align: center;
+    width: 200px;
+    height: 200px;
     background-color: white;
+    color: black;
     padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px gray;
+}
+
+.service-description {
+    width: 50%;
+}
+
+.first-two-box {
+    display: flex;
+    gap: 3px;
+    margin-top: 5px;
+}
+
+.second-two-box {
+    display: flex;
+    gap: 3px;
+    margin-top: 5px;
+}
+.author-container{
+    display: flex;
+    gap:50px;
+    align-items: center;
+}
+.author-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 25px;
+    border-right: 3px solid red;
+    padding-right: 20px;
 }
