@@ -64,3 +64,23 @@
     color: white;
 }
 
+/* service style  */
+.service-container{
+    height: 100vh;
+    background-image: url('/asset/image/footer-bg.png'), linear-gradient(rgb(39, 38, 38), rgb(34, 34, 36));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+}
+.icon{
+    width: 100px;
+}
+.one-box{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    padding: 25px;
+}
