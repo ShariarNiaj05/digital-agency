@@ -80,7 +80,8 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 0px 150px;
+    /* margin: 0px 20px; */
 }
 
 .icon {
@@ -133,3 +134,39 @@ ul {
     border-right: 3px solid red;
     padding-right: 20px;
 }
+/* appointment style  */
+.appointment-container{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 50px;
+    background-color: red;
+    width: 75%;
+    height: 75px;
+    color: white;
+    border-radius: 10px;
+    margin-top: -100px;
+}
+
+.appointment-icon{
+    width: 125px;
+    height: auto;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: 2px solid white;
+}
+.appointment-description{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.appointment-btn{
+    border-radius: 10px;
+}
+
+/* blog news style  */
+
+.blog-news
