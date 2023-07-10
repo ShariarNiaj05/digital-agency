@@ -26,7 +26,7 @@ ul {
 /* banner area style  */
 .banner-container {
     height: 100vh;
-    background-image: url('./asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+    background-image: url('../digital agency/asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@ ul {
 /* service style  */
 .service-container {
     height: 100vh;
-    background-image: url('./asset/image/footer-bg.png'), linear-gradient(rgb(39, 38, 38), rgb(34, 34, 36));
+    background-image: url('../digital agency/asset/image/footer-bg.png'), linear-gradient(rgb(39, 38, 38), rgb(34, 34, 36));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
@@ -236,7 +236,7 @@ footer {
     height: 65vh;
     color: white;
     text-align: center;
-    background-image: url('./asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0, 1.3), rgba(0, 0, 0, 0.9));
+    background-image: url('../digital agency/asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0, 1.3), rgba(0, 0, 0, 0.9));
 }
 
 .upper-footer-contianer {
