@@ -115,18 +115,21 @@ ul {
     gap: 3px;
     margin-top: 5px;
 }
-.author-container{
+
+.author-container {
     display: flex;
-    gap:50px;
+    gap: 50px;
     align-items: center;
 }
-.author-img{
+
+.author-img {
     height: 100px;
     width: 100px;
     border-radius: 50px;
 
 }
-.profile-container{
+
+.profile-container {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -134,8 +137,9 @@ ul {
     border-right: 3px solid red;
     padding-right: 20px;
 }
+
 /* appointment style  */
-.appointment-container{
+.appointment-container {
     display: flex;
     align-items: center;
     margin-left: 10%;
@@ -149,72 +153,116 @@ ul {
     margin-top: -100px;
 }
 
-.appointment-icon{
+.appointment-icon {
     width: 125px;
     height: auto;
 }
-.phone{
+
+.phone {
     display: flex;
     align-items: center;
     gap: 10px;
     border-right: 2px solid white;
 }
-.appointment-description{
+
+.appointment-description {
     margin-left: 25px;
     margin-right: 25px;
 }
-.appointment-btn{
+
+.appointment-btn {
     border-radius: 10px;
 }
 
 /* blog news style  */
 
-.blog-news{
+.blog-news {
     margin-top: 30px;
     margin-left: 20%;
     margin-right: 20%;
-    
+
 }
-.blog-section-title{
+
+.blog-section-title {
     font-size: 48px;
     font-weight: bold;
-    padding: 10px; 
+    padding: 10px;
     margin-left: 90px;
 }
-.blog-section-description{
+
+.blog-section-description {
     font-size: 26px;
     font-weight: 400px;
-    padding: 10px; 
-    margin-left: 90px; 
+    padding: 10px;
+    margin-left: 90px;
     margin-right: 90px;
 }
 
-.blog-post{
+.blog-post {
     display: flex;
     width: 35px;
     gap: 25px;
     padding: 25px;
-    
-    
+
+
 }
-.blog-img{
+
+.blog-img {
     width: 250px;
     height: auto;
 }
 
-.single-blog-post{
+.single-blog-post {
     /* width: 35px; */
     border: 2px solid rgba(43, 41, 41, 0.137);
     border-radius: 5px;
     box-shadow: 2px 2px olive;
-    
-    
-}
-.blog-title{
-    padding: 10px;
-   
+
 
 }
-.blog-description{
+
+.blog-title {
     padding: 10px;
+
+
+}
+
+.blog-description {
+    padding: 10px;
+}
+
+/* footer style     */
+footer {
+    height: 65vh;
+    color: white;
+    text-align: center;
+    background-image: url('/asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0, 1.3), rgba(0, 0, 0, 0.9));
+}
+
+.upper-footer-contianer {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 200px;
+}
+.site-info{
+    padding: 25px;
+    width: 300px;
+}
+.useful-links{
+    padding: 25px;
+    width: 300px;
+    list-style: none;
+    text-align: left;
+}
+.supports{
+    padding: 25px;
+    width: 300px;
+    list-style: none;
+    text-align: left;
+}
+.footer-contact-info{
+    padding: 25px;
+    width: 300px;
+    list-style: none;
+    text-align: left;
 }
